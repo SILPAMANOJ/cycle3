@@ -2,7 +2,7 @@
     import java.io.*;  
     class tcpclient{  
     public static void main(String args[])throws Exception{  
-    Socket s=new Socket("localhost",3333);  
+    Socket s=new Socket("192.168.7.62",3335);  
     DataInputStream din=new DataInputStream(s.getInputStream());  
     DataOutputStream dout=new DataOutputStream(s.getOutputStream());  
     BufferedReader br=new BufferedReader(new InputStreamReader(System.in));  
