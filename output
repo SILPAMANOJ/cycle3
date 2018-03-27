@@ -1,0 +1,18 @@
+tcp client
+***********
+
+mca1653@mcapc132:~$ cd silpa53/sem4/sdlab/git/cycle3
+mca1653@mcapc132:~/silpa53/sem4/sdlab/git/cycle3$ javac tcpserver.java
+mca1653@mcapc132:~/silpa53/sem4/sdlab/git/cycle3$ java tcpserver
+client says: hello server
+welcome my new client
+
+tcp server
+***********
+
+mca1653@mcapc132:~$ cd silpa53/sem4/sdlab/git/cycle3
+mca1653@mcapc132:~/silpa53/sem4/sdlab/git/cycle3$ javac tcpclient.java
+mca1653@mcapc132:~/silpa53/sem4/sdlab/git/cycle3$ java tcpclient
+hello server
+Server says: welcome my new client
+
